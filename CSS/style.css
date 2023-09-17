@@ -1,0 +1,150 @@
+p{
+    color:chocolate;
+    background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    clear: both;
+    font-size: 150%;
+    display: table;
+    overflow: scroll;
+
+    border-radius: 10px;
+}
+h1, span{
+    color: red;
+    background: linear-gradient(#b3b3b3 0%, green 100%);
+    font-size: 150%;
+    font-family: arial;
+    font-variant: small-caps;
+    text-align: center;
+    line-height: 200%;
+    clear: both;
+
+    margin: 5%;
+    padding: 15px;
+
+    border-radius: 30px;
+}
+nav{
+    font-variant: small-caps;
+    font-size: 100%;
+    font-family: Arial, 'Times New Roman', serif;
+    display: block;
+    float:right;
+    text-align: center;
+}
+details{
+    font-style: italic;
+}
+summary{
+    font-style: normal;
+    visibility: ;
+}
+div{
+    color: violet;
+    display: inline-block;
+    width: 50%;
+}
+video{
+
+    display: inline-block;
+}
+audio{
+    display: inline-block;
+}
+
+body{
+    background: linear-gradient(blanchedalmond 0%, white 100%) ;
+    
+}
+
+h2{
+    background: linear-gradient(black 0%, white 100%);
+    color:aliceblue;
+}
+
+section{
+    display: inline-block;
+    width: 31%;
+    float: left;
+    margin-right: 2%;
+}
+
+a{
+    display: block;
+    font-weight: bold;
+    color:chocolate;
+    background-color: ;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+a:hover{
+    background: #f1f0f0;
+    color: rgb(21, 228, 131);
+}
+
+a:focus{
+    background: #b3b3b3;
+    color: rgb(12, 8, 8);
+}
+
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+section ul{
+    list-style-image: url("/IMG/emoji.png");
+
+}
+
+li{
+
+    background-size: 10%;
+}
+
+section a{
+    background-color: aliceblue;
+}
+
+.end{
+    clear: both;
+    display: inline;
+    color:brown;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+img.end{
+    width: 50%;
+}
+
+img[src*='ame']{
+    margin: 5%;
+}
+
+nav a{
+    display: inline-block;
+    width: 22%;
+    background: paleturquoise
+}
+
+#Music{
+    display: inline-block;
+    width: 45%;
+    background-image: url("/IMG/amecool.jpg");
+}
+
+#Table{
+    display: inline-block;
+    width: 45%;
+    background-image: url("/IMG/Gator.png");
+    background-size: 50%;
+
+}
